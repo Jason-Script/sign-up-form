@@ -1,0 +1,1 @@
+The goal of this project will be to create a sign-up form for an imaginary service to solidify my understanding of HTML forms.
