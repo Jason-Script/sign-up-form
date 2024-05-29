@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.page-container {
+    display: flex;
+}
+
+.sidebar-container {
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    background-image: url("sidebar-image.jpeg");
+    background-size: cover;
+}
+
+.logo-container {
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+}
+
+.sign-up-top,
+.sign-up-middle,
+.sign-up-bottom {
+    width: 100%;
+    height: 33.4%;
+    display: flex;
+}
+
+.sign-up-top,
+.sign-up-bottom {
+    background-color: white;
+}
+
+.sign-up-middle {
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+.sign-up-top {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sign-up-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    width: 25%;
+    height: 20%;
+    border: none;
+    background-color: #7B807C;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.2em;
+    border-radius: 12px;
+    color: white;
+}
+
+p {
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+}
+
+input {
+    width: 60%;
+    height: 30%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+label {
+    text-align: left;
+
+}
+
+input:invalid {
+    border-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(77, 77, 238);
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.2em;
+    margin: 0;
+    align-self: baseline;
+    margin-top: 5%;
+}
+
+.invalid {
+    border-color: red;
+}
+
+#pass-alert {
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    color: red;
+}

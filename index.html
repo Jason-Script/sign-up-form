@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
-    <title>Document</title>
+    <script src="scripts.js" defer></script>
+    <title>Sign-up Form</title>
 </head>
 <body>
-    
+    <div class="page-container">
+        <div class="sidebar-container">
+            <div class="logo-container">
+                <h1>Catchy Name</h1>
+                <img class="logo" src="./flower-logo.png" alt="Company logo">
+            </div>
+        </div>
+        <div class="sign-up-container">
+            <div class="sign-up-top">
+                <p class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="top-text">Sign up now!</p>
+            </div>
+            <div class="sign-up-middle">
+                <form action="foo.bar" method="post">
+                    <ul>
+                        <li>
+                            <label for="firstname"><p>FIRST NAME</p></label>
+                            <input type="text" id="firstname" name="firstname">
+                        </li>
+                        <li>
+                            <label for="email"><p>EMAIL ADDRESS</p></label>
+                            <input type="email" id="email" name="email">
+                        </li>
+                        <li>
+                            <label for="password"><p>PASSWORD</p></label>
+                            <input type="password" id="password" name="password">
+                        </li>
+                        <li>
+                            <label for="lastname"><p>LAST NAME</p></label>
+                            <input type="text" id="lastname" name="lastname">
+                        </li>
+                        <li>
+                            <label for="ponenumber"><p>PHONE NUMBER</p></label>
+                            <input type="num" id="phonenumber" name="phonenumber">
+                        </li>
+                        <li>
+                            <label for="passconfirm"><p>CONFIRM PASSWORD</p></label>
+                            <input type="password" id="passconfirm" name="passconfirm">
+                        </li>
+                    </ul>
+                </form>
+                <span id="pass-alert"></span>
+            </div>
+            <div class="sign-up-bottom">
+                <button type="button" id="submit">Create Account</button>
+                <p id="login-text">Already have and account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
